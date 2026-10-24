@@ -20,9 +20,13 @@ Hai PDF nền trong thư mục Pre được ghi nguồn trên website; không đ
 - Tự chạy khi demo xuất hiện trong màn hình; dừng khi tab ẩn, khi bấm Tạm dừng hoặc khi người dùng bật giảm chuyển động. Có nút học thêm từng bước. Tự dừng tại 5.000 lượt.
 - Teachable Machine chặn nhúng trang huấn luyện. Website dùng thư viện ảnh chính thức để tải mô hình đã xuất và dự đoán ảnh cục bộ. Cần URL mô hình Image do giáo viên cung cấp; không có mô hình mẫu giả. Thư viện dùng các phiên bản được ví dụ chính thức nêu: tfjs 1.3.1 và teachablemachine/image 0.8.3, tải khi người dùng yêu cầu. Nên rà soát tương thích khi nâng phiên bản.
 - TensorFlow Playground tải iframe theo yêu cầu, có liên kết tab riêng dự phòng. Cần nhấn Play trong công cụ ngoài; điều khiển tạm dừng của website không điều khiển iframe khác nguồn.
-- Không có backend, analytics hoặc gửi ảnh lên máy chủ của website. Font Google, CDN, mô hình và iframe là dịch vụ bên ngoài; mạng bị chặn sẽ ảnh hưởng các phần tương ứng. Nội dung văn bản và demo toán học vẫn dùng được khi các dịch vụ này không tải.
+- Không có backend hoặc gửi ảnh lên máy chủ của website. Tích hợp thống kê GoatCounter được chuẩn bị nhưng mặc định tắt; xem ANALYTICS.md. Font Google, CDN, mô hình và iframe là dịch vụ bên ngoài; mạng bị chặn sẽ ảnh hưởng các phần tương ứng. Nội dung văn bản và demo toán học vẫn dùng được khi các dịch vụ này không tải.
 - Prompt builder chỉ ghép khung văn bản; không gọi LLM. Hoạt ảnh token và quy trình được ghi rõ là minh họa.
 
 ## Kiểm tra trước tiết dạy
 
 Mở thử trên máy chiếu, tải mô hình thật và một ảnh mới; thử mạng trường học; chuẩn bị ảnh cùng bảng kết quả để in khi mất mạng. Không dùng ảnh học sinh hoặc dữ liệu cá nhân cho bài thực hành mẫu.
+
+## Bổ sung 24/10/2026
+
+So sánh mạng nơ-ron với cách học của con người kèm giới hạn; phép tính trọng số/bias và đồ thị bốn hàm kích hoạt; ma trận độ phủ dữ liệu; bảng tra thuật ngữ Teachable Machine/Playground; phân biệt vòng vận hành với vòng cải tiến hệ thống. `guide.js` phụ thuộc `app.js` và chạy sau nó. Nội dung nằm trực tiếp trong `index.html`, đọc được ngay cả khi tắt JavaScript. `guide.html` là bản đoạn nguồn dùng khi biên soạn, không phải trang độc lập.
