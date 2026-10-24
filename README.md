@@ -1,6 +1,6 @@
 # AI, nhìn là hiểu
 
-Website tiếng Việt giúp giáo viên phổ thông giải thích và tổ chức hoạt động học AI. HTML/CSS/JavaScript thuần, không cần build hay khóa API.
+Website tiếng Việt giúp giáo viên THPT giải thích và tổ chức hoạt động học AI. HTML/CSS/JavaScript thuần, không cần build hay khóa API.
 
 ## Chạy và xuất bản
 
@@ -10,9 +10,9 @@ Website tiếng Việt giúp giáo viên phổ thông giải thích và tổ ch�
 
 ## Nội dung
 
-AI và học máy; dữ liệu huấn luyện/xác thực/kiểm tra; mạng nơ-ron nhỏ học thật; Teachable Machine; AI tạo sinh; vai trò con người; tiết học 45 phút, phiếu in và câu hỏi kiểm tra.
+AI và học máy; dữ liệu huấn luyện/xác thực/kiểm tra; Playground chính thức được nhúng; Teachable Machine; AI tạo sinh; vai trò con người; tiết học 45 phút, phiếu in và câu hỏi kiểm tra.
 
-Hai PDF nền trong thư mục Pre được ghi nguồn trên website; không đưa PDF gốc vào repo. Điều chỉnh tiểu học/THCS là đề xuất sư phạm, không thay thế hướng dẫn chương trình chính thức.
+Nội dung được biên tập lại theo phần II của tài liệu tập huấn AI cấp THPT mới trong Pre, kết hợp nội dung đã xây dựng. Không hiển thị nguồn tham khảo trên trang và không đưa PDF gốc vào repo. Chi tiết quyết định biên tập nằm trong CONTENT-THPT.md. Phân biệt mục tiêu cốt lõi và hoạt động mở rộng, không mặc định học sinh biết lập trình.
 
 ## Demo và giới hạn
 
