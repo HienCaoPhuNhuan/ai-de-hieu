@@ -1,7 +1,7 @@
 /* Set this only after the site owner has created a GoatCounter site.
    Example: https://YOUR-CODE.goatcounter.com/count
    This is a public endpoint, never an API key. Empty means no analytics. */
-const ANALYTICS_ENDPOINT = '';
+const ANALYTICS_ENDPOINT = 'https://taphuanai.goatcounter.com/count';
 if (ANALYTICS_ENDPOINT && location.hostname === 'hiencaophunhuan.github.io') {
   try {
     const endpoint = new URL(ANALYTICS_ENDPOINT);
