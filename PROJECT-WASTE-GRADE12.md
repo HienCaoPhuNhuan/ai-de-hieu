@@ -2,15 +2,17 @@
 
 Ngày chốt bản thiết kế: 24/10/2026.
 
-## 0. Trạng thái và quyết định tiếp tục
+## 0. Trạng thái triển khai
 
-- Đã hoàn thành: đọc đối chiếu phần II tài liệu tập huấn AI cấp THPT mới trong Pre; chốt mục tiêu, sản phẩm, tiến trình, dữ liệu, kiểm thử, rubric và thiết kế page dưới đây.
-- Chưa thực hiện: sửa giao diện page, tạo bộ ảnh, huấn luyện mô hình rác, thực nghiệm với học sinh. Không có kết quả thực nghiệm để công bố.
-- Quyết định đợt này: lưu đầy đủ kế hoạch; giữ nguyên website đang hoạt động. Người dùng báo còn 34% usage trong cửa sổ 5 giờ; trợ lý không kiểm tra được hạn mức thực tế hoặc thời điểm reset nên không cam kết đủ để triển khai và kiểm thử toàn bộ.
-- Sau reset: người dùng nhắn tiếp để bắt đầu từ mục 12. Không có tác vụ tự chạy hay lịch tự động đã thiết lập.
+- Đã biên tập page một trang theo dự án lớp 12, giữ phần lý thuyết cần dùng và mục mở rộng; Playground chính thức và GoatCounter được giữ.
+- Đã triển khai bộ tải mô hình Image, kiểm tra phạm vi, ghi phép thử, tách thống kê theo lần tải/phiên bản/tập dữ liệu, bảng nhầm lẫn, CSV và thẻ mô hình Markdown.
+- Đã thêm cấu hình hướng dẫn thu gom theo đúng nhãn, chỉ hiển thị sau xác nhận của giáo viên và đối chiếu của người dùng; mặc định chưa có hướng dẫn.
+- Đã kiểm tra cú pháp, ID/liên kết, tính toán và xử lý CSV; chạy các sự kiện giao diện bằng DOM/mô hình giả lập kiểm thử (không phải kết quả AI thật). Mã kiểm thử tái chạy được ở tests/project.test.cjs; chi tiết ở VALIDATION.md.
+- Giới hạn: không có công cụ trình duyệt hoạt động trong phiên triển khai; chưa kiểm tra trực quan trên trình duyệt hoặc suy luận đầu-cuối bằng mô hình rác thật. Không tạo bộ ảnh hoặc huấn luyện mô hình thay học sinh. Không có số liệu thực nghiệm để công bố.
 - Repo: https://github.com/HienCaoPhuNhuan/ai-de-hieu
 - Website: https://hiencaophunhuan.github.io/ai-de-hieu/
-- Bản website làm nền: commit `8c92630b7b37fc4e03315626448a8e5f48481c36`. Trước khi sửa phải đọc main mới nhất để bảo toàn thay đổi về sau.
+- Bản nền đã đối chiếu trước khi sửa: commit 6e673150b8a72c8e29fd2213b07cda2cadca5b4e.
+- Các mục dưới giữ lại thiết kế sư phạm và tiêu chí nghiệm thu; mục 12 là kế hoạch chặng đã thực hiện cho mã nguồn, không phải tác vụ tự động đang chờ reset.
 
 ## 1. Ý tưởng và phạm vi sản phẩm
 
