@@ -1,6 +1,6 @@
 # Thống kê lượt truy cập
 
-Hiện trạng: phần tích hợp đã chuẩn bị, **chưa thu thập lượt xem** vì chủ website chưa cung cấp endpoint GoatCounter. Không có số đếm giả hoặc bộ đếm localStorage.
+Hiện trạng: đã cấu hình endpoint `https://taphuanai.goatcounter.com/count` ngày 24/10/2026. Dashboard: https://taphuanai.goatcounter.com/ . Số liệu bắt đầu từ khi người dùng tải phiên bản website có cấu hình này; cần kiểm tra dashboard để xác nhận lượt đã nhận. Không có số đếm giả hoặc bộ đếm localStorage.
 
 ## Kích hoạt
 
